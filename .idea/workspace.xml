@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3abdf79-dd9a-402d-9e66-7cacf14a3d3f" name="Default" comment="" />
+    <list default="true" id="e3abdf79-dd9a-402d-9e66-7cacf14a3d3f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetSnapshotUri.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Commands/GetSnapshotUri.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetStreamUri.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Commands/GetStreamUri.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/Commands/GetCapabilities.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-234">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#121#137#0#PHP" expanded="true" />
                 <marker date="1562229092691" expanded="true" signature="510:621" ph="..." />
@@ -52,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/Commands/PTZ/GetConfigurations.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="43" column="74" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="44" selection-end-column="93" />
+              <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="44" selection-end-column="93" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
                 <element signature="e#124#139#0#PHP" expanded="true" />
@@ -83,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2314">
-              <caret line="99" column="36" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="36" />
+            <state relative-caret-position="234">
+              <caret line="65" column="48" lean-forward="false" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
               <folding>
                 <element signature="e#111#129#0#PHP" expanded="true" />
               </folding>
@@ -95,15 +87,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state relative-caret-position="804">
+              <caret line="77" column="39" lean-forward="false" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
                 <element signature="e#123#141#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="26">
+                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -124,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/Commands/GetDeviceInformation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="27" selection-end-column="21" />
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="e#121#137#0#PHP" expanded="true" />
               </folding>
@@ -233,6 +238,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libonvif" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libonvif" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -241,7 +260,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/mnt/mybee/MyBee-Web" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -358,12 +377,12 @@
       <updated>1561644286053</updated>
       <workItem from="1561644291585" duration="47302000" />
       <workItem from="1562146335339" duration="4543000" />
-      <workItem from="1562226643342" duration="3076000" />
+      <workItem from="1562226643342" duration="4166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54921000" />
+    <option name="totallyTimeSpent" value="56011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
@@ -376,7 +395,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -401,16 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Commands/GetSystemDateAndTime.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
-          <folding>
-            <element signature="e#120#138#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Commands/GetSnapshotUri.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -492,7 +501,7 @@
         <state relative-caret-position="676">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#121#136#0#PHP" expanded="true" />
+            <element signature="e#121#136#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,7 +612,7 @@
         <state relative-caret-position="624">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#144#162#0#PHP" expanded="true" />
+            <element signature="e#144#162#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,7 +713,7 @@
         <state relative-caret-position="1092">
           <caret line="56" column="78" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="78" />
           <folding>
-            <element signature="e#120#136#0#PHP" expanded="true" />
+            <element signature="e#120#136#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,7 +755,7 @@
         <state relative-caret-position="676">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="e#121#136#0#PHP" expanded="true" />
+            <element signature="e#121#136#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,16 +773,6 @@
         <state relative-caret-position="468">
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2314">
-          <caret line="99" column="36" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="36" />
-          <folding>
-            <element signature="e#111#129#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,7 +807,7 @@
     <entry file="file://$PROJECT_DIR$/src/Commands/PTZ/GetConfigurations.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="43" column="74" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="44" selection-end-column="93" />
+          <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="44" selection-end-column="93" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
             <element signature="e#124#139#0#PHP" expanded="true" />
@@ -819,7 +818,7 @@
     <entry file="file://$PROJECT_DIR$/src/Commands/GetDeviceInformation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="27" selection-end-column="21" />
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="e#121#137#0#PHP" expanded="true" />
           </folding>
@@ -829,7 +828,7 @@
     <entry file="file://$PROJECT_DIR$/src/Commands/GetCapabilities.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-234">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#121#137#0#PHP" expanded="true" />
             <marker date="1562229092691" expanded="true" signature="510:621" ph="..." />
@@ -839,11 +838,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+        <state relative-caret-position="804">
+          <caret line="77" column="39" lean-forward="false" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
             <element signature="e#123#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="26">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="65" column="48" lean-forward="false" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+          <folding>
+            <element signature="e#111#129#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

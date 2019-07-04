@@ -1,4 +1,13 @@
 {
+    "name": "jonvig1/libonvif",
+    "description": "PHP onvif library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "JONVILLE Guillaume",
+            "email": "g.jonville@b2ei.com"
+        }
+    ],
     "require": {
         "pedroac/nonce": "^1.1",
         "laravel/laravel": "^5.8",
