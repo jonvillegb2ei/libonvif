@@ -2,6 +2,7 @@
     "name": "jonvig1/libonvif",
     "description": "PHP onvif library",
     "type": "library",
+    "keywords": ["onvif", "IPCamera", "PHP"],
     "authors": [
         {
             "name": "JONVILLE Guillaume",
@@ -17,6 +18,11 @@
     "autoload": {
         "psr-4": {
             "LibOnvif\\":"src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
