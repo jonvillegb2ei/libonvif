@@ -1,0 +1,41 @@
+{
+    "name": "pedroac/nonce",
+    "type": "library",
+    "description": "A nonces manager usefull for preventing CSRF attacks.",
+    "keywords": ["nonce", "security", "token", "csrf"],
+    "homepage": "https://github.com/pedroac/nonce4php",
+    "support": {
+        "email": "pedro.amaral.couto@gmail.com",
+        "issues": "https://github.com/pedroac/nonce4php/issues"
+    },
+    "authors": [
+        {
+            "name": "Pedro Amaral Couto",
+            "email": "pedro.amaral.couto@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "config": {
+        "vendor-dir": "./php/vendor"
+    },
+    "autoload": {
+        "psr-4": {"pedroac\\nonce\\": "php/lib"}
+    },
+    "suggest": {
+        "symfony/cache": "^4.0.8"
+    },
+    "require": {
+        "php": ">=7.1",
+        "psr/simple-cache": "@stable",
+        "kdyby/datetime-provider": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1.1",
+        "squizlabs/php_codesniffer": "@stable",
+        "phpmd/phpmd" : "@stable",
+        "phpdocumentor/phpdocumentor": "@stable",
+        "codacy/coverage": "dev-master",
+        "symfony/cache": "^4.0.8"
+    }
+}

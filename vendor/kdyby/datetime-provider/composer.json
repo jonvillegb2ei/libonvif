@@ -1,0 +1,55 @@
+{
+	"name": "kdyby/datetime-provider",
+	"type": "library",
+	"description": "Time provider, providing consistent current date, time, datetime and timezone across the request.",
+	"keywords": ["kdyby", "date", "time", "datetime", "microseconds", "clock", "provider"],
+	"homepage": "https://kdyby.org",
+	"license": ["BSD-3-Clause", "GPL-2.0-only", "GPL-3.0-only"],
+	"authors": [
+		{
+			"name": "Michael Moravec"
+		},
+		{
+			"name": "Richard Ejem"
+		},
+		{
+			"name": "Filip Procházka",
+			"homepage": "https://filip-prochazka.com"
+		},
+		{
+			"name": "Kdyby Community",
+			"homepage": "https://github.com/Kdyby/DateTimeProvider/graphs/contributors"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/Kdyby/DateTimeProvider/issues"
+	},
+	"require": {
+		"php": "^7.1",
+		"kdyby/strict-objects": "^1.0"
+	},
+	"require-dev": {
+		"doctrine/coding-standard": "^3.0",
+		"nette/tester": "~1.7",
+		"phpstan/phpstan": "^0.9",
+		"phpstan/phpstan-strict-rules": "^0.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kdyby\\DateTimeProvider\\": "src/"
+		},
+		"classmap": [
+			"src/exceptions.php"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"KdybyTests\\": "tests/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
