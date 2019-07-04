@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "laravel/laravel": "^5.8",
+        "laravel/laravel": "^5.5",
         "rmccue/requests": "^1.7"
     },
     "autoload": {
